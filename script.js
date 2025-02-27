@@ -8,4 +8,5 @@ function yellatuser(){
 button1.addEventListener("click", yellatuser);
 if (clicks == 1,2,3) {
     texxt = texxt + '!'
+    // fixxxx
 }
