@@ -1,12 +1,15 @@
-const button1 = document.getElementById("button1")
-let clicks = 0
-let texxt = "STOP TOUCHING ME"
-function yellatuser(){
-    alert(texxt); clicks++;
-     console.log(clicks)
+const button1 = document.getElementById("button1");
+let texxt = document.getElementById("alarmtext");
+let clicks = 0;
+
+
+function yellatuser(){ 
+    clicks++;
+    if (clicks==1) {
+      texxt.innerHTML="STOP TOUCHING ME"
+    }
+ 
 }
 button1.addEventListener("click", yellatuser);
-if (clicks == 1,2,3) {
-    texxt = texxt + '!'
-    // fixxxx
-}
+
+
