@@ -72,6 +72,12 @@ function yellatuser(){
       stache.classList.add("stache");
       texxt.innerHTML = "where is the button?"
     }
+    if (clicks == 20) {
+      texxt.innerHTML = "not here"
+    }
+    if (clicks==25) {
+      
+    }
     if(clicks==100){
       stache.classList.remove("stache")
       button1.classList.add("mover")

@@ -65,7 +65,7 @@ animation: wii 5s linear infinite;
         }
     }
     .orbit3{
-        animation: wii 250ms linear infinite;
+        animation: wii 300ms linear infinite;
         }
         @keyframes wii{
             0%{transform: rotate(0deg)
