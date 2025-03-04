@@ -5,6 +5,8 @@ let stache = document.getElementById("must")
 let test = document.getElementById("test")
 let reset = document.getElementById("reset")
 let clicks = 0;
+let clicks2=0
+let clicks3=0
 function yellatuser(){
     clicks++;
     if(clicks==0){
@@ -88,17 +90,19 @@ function yellatuser(){
       texxt.innerHTML = "I HAVE REACHED MY ULTIMATE STATE YOU CANT CATCH ME"
     }
 }
-function testact(){
-let clicks3 = 0;clicks3++;
+function  testact(){
+;clicks3++;
 if(clicks3==1){
   let clicks=20
 }
+let clicks3 = 0
 }
 function resetact(){
-let clicks2 = 0;clicks2++;
+clicks2++;
 if(clicks2==1){
-  let clicks=20
+  let clicks=0
 }
+let clicks2 = 0
 }
 button1.addEventListener("click", yellatuser);
 test.addEventListener("click", testact);
