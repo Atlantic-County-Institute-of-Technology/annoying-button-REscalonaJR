@@ -91,17 +91,12 @@ function yellatuser(){
     }
 }
 function  testact(){
-;clicks3++;
-if(clicks3>=1){
-  clicks=20
-}
+;clicks++;
+
 
 }
 function resetact(){
-clicks2++;
-if(clicks2>=1){
-  clicks=0
-}
+clicks--
 
 }
 button1.addEventListener("click", yellatuser);
