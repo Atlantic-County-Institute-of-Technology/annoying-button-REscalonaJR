@@ -2,11 +2,9 @@
 const button1 = document.getElementById("button1");
 let texxt = document.getElementById("alarmtext");
 let stache = document.getElementById("must")
-let test = document.getElementById("test")
-let reset = document.getElementById("reset")
+
 let clicks = 0;
-let clicks2=0
-let clicks3=0
+
 function yellatuser(){
     clicks++;
     if(clicks==0){
@@ -90,15 +88,5 @@ function yellatuser(){
       texxt.innerHTML = "I HAVE REACHED MY ULTIMATE STATE YOU CANT CATCH ME"
     }
 }
-function  testact(){
-;clicks++;
 
-
-}
-function resetact(){
-clicks--
-
-}
 button1.addEventListener("click", yellatuser);
-test.addEventListener("click", testact);
-reset.addEventListener("click", resetact);
