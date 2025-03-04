@@ -1,15 +1,114 @@
 
-#button1{
-   height: 100px;
-    width: 100px;
-    border-radius:50% ;
-    background-color: red;
-    box-shadow: 10px;
-    position: absolute;
-    top: 45%;
-    left: 45%;
 
+
+#button1{
+    height: 200px;
+     width: 200px;
+     border-radius:50% ;
+     background-color: red;
+     box-shadow: 0px 10px 2px 2px;
+ }
+ #button1:hover {
+     background-color: rgb(230, 70, 70);
+ }
+ 
+ 
+.initial{
+    position: absolute;
+     top: 40%;
+     left: 40%;
+     font-size: 25px;
+} 
+.sub1 {
+    transform: translateX(210px)
+    
 }
-#button1:hover {
-    background-color: rgb(230, 70, 70);
+.texxt{
+    position: absolute;
+    left: 40%;
+    font-size: 30px;
+} 
+.mover:hover{
+    animation: circle 5s linear infinite;
 }
+@keyframes circle{
+    0%{transform: rotate(0deg)
+        translateX(350px) rotate(0deg);
+    }/*this make planet go roound round*/
+    100%{
+        transform: rotate(360deg)
+        translateX(350px) rotate(360deg) ;
+    }
+}
+.orbit{
+animation: wii 5s linear infinite;
+}
+@keyframes wii{
+    0%{transform: rotate(0deg)
+        translateX(350px) rotate(0deg);
+    }/*this make planet go roound round*/
+    100%{
+        transform: rotate(360deg)
+        translateX(350px) rotate(360deg) ;
+    }
+}
+.orbit2{
+    animation: wii 350ms linear infinite;
+    }
+    @keyframes wii{
+        0%{transform: rotate(0deg)
+            translateX(350px) rotate(0deg);
+        }/*this make planet go roound round*/
+        100%{
+            transform: rotate(360deg)
+            translateX(350px) rotate(360deg) ;
+        }
+    }
+    .orbit3{
+        animation: wii 250ms linear infinite;
+        }
+        @keyframes wii{
+            0%{transform: rotate(0deg)
+                translateX(350px) rotate(0deg);
+            }/*this make planet go roound round*/
+            100%{
+                transform: rotate(360deg)
+                translateX(350px) rotate(360deg) ;
+            }
+        }
+        .stache{
+            width:180px;
+            height:180px;
+            left:29%;
+            top: 20%;
+            border-radius:50%;
+            position:absolute;
+            color:black;
+            box-shadow:
+            150px 240px 0 0 currentColor,
+            300px 240px 0 0 currentColor;
+        }
+        .stache::before{
+            content:"";
+            position:absolute;
+            left:30px;
+            top:120px;
+            width:210px;
+            height:120px;
+            border-bottom:solid 180px currentColor;
+            border-radius:0 0 0 100%;
+            transform:rotate(-40deg);
+            transform-origin:right 210px;
+        }
+        .stache::after{
+            content:"";
+            position:absolute;
+            left:390px;
+            top:120px;
+            width:210px;
+            height:120px;
+            border-bottom:solid 180px currentColor;
+            border-radius:0 0 100%0;
+            transform:rotate(40deg);
+            transform-origin:left 210px;
+        }
