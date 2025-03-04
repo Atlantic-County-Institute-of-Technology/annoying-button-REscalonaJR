@@ -112,3 +112,12 @@ animation: wii 5s linear infinite;
             transform:rotate(40deg);
             transform-origin:left 210px;
         }
+        .activated{
+            height: 200px;
+            width: 200px;
+            border-radius:50% ;
+            background-color: red;
+            box-shadow: 0px 10px 2px 2px;
+            top: 80%;
+            left: 80%;
+        } 
