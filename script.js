@@ -7,6 +7,9 @@ let reset = document.getElementById("reset")
 let clicks = 0;
 function yellatuser(){
     clicks++;
+    if(clicks==0){
+      texxt.innerHTML=""
+    }
     if (clicks==1) {
       texxt.innerHTML="STOP TOUCHING ME"
     }
