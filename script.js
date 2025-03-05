@@ -1,10 +1,14 @@
-
 const button1 = document.getElementById("button1");
 let texxt = document.getElementById("alarmtext");
 let stache = document.getElementById("must")
+let container = document.getElementById("container")
 let clicks = 0;
+
 function yellatuser(){
     clicks++;
+    if(clicks==0){
+      texxt.innerHTML=""
+    }
     if (clicks==1) {
       texxt.innerHTML="STOP TOUCHING ME"
     }
@@ -72,12 +76,27 @@ function yellatuser(){
       stache.classList.add("stache");
       texxt.innerHTML = "where is the button?"
     }
+    if (clicks == 20) {
+      texxt.innerHTML = "not here"
+    }
+    if (clicks==25) {
+      texxt.innerHTML = "STOP TOUCHING MEE!!!"
+      stache.classList.remove("stache")
+      button1.classList.add("running")
+    }
+    if (clicks==30) {
+      texxt.innerHTML = "I CANT ANYMORE"
+      button1.classList.remove("running")
+      const button2 = document.createElement("button")
+      button2.classList.add("button1")
+      container.appendChild(button2)
+      button1.innerHTML = ""
+    }
     if(clicks==100){
       stache.classList.remove("stache")
       button1.classList.add("mover")
       texxt.innerHTML = "I HAVE REACHED MY ULTIMATE STATE YOU CANT CATCH ME"
     }
-
- 
 }
+
 button1.addEventListener("click", yellatuser);
