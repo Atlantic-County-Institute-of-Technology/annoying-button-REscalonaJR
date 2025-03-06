@@ -3,9 +3,10 @@ let texxt = document.getElementById("alarmtext");
 let stache = document.getElementById("must")
 let container = document.getElementById("container")
 let clicks = 0;
+let clicksound = new Audio ('assets/click.mp3')
 
 function yellatuser(){
-    clicks++;
+    clicks++;clicksound.play();
     if(clicks==0){
       texxt.innerHTML=""
     }
@@ -90,7 +91,19 @@ function yellatuser(){
       const button2 = document.createElement("button")
       button2.classList.add("button1")
       container.appendChild(button2)
-      button1.innerHTML = ""
+      button1.innerHTML = "NOT ME"
+      button2.innerHTML = "NOT ME"
+      button1.classList.add("taco")
+      button1.classList.remove("initial")
+      const button3 = document.createElement("button")
+      container.appendChild(button3)
+      button3.classList.add("button1")
+      button3.classList.add("yeah")
+      button3.innerHTML = "ME"
+      button1.classList.add("dash")
+    }
+    if (clicks ==35){
+      button1.classList.remove("dash")
     }
     if(clicks==100){
       stache.classList.remove("stache")
