@@ -118,6 +118,9 @@ button3.classList.remove("button1")
       button1.classList.add("initial")
       button1.classList.add("growshrink")
       button1.innerHTML=""
+      button3.innerHTML=""
+      button2.innerHTML=""
+
     }
     if (clicks==33){
       button1.classList.remove("growshrink")
