@@ -111,7 +111,7 @@ button3.classList.remove("invis")
 
       button2.classList.add("invis")
 button3.classList.add("invis")
-button2.classList.add("button1")
+button2.classList.remove("button1")
 button3.classList.remove("button1")
       texxt.innerHTML = "WHY DO YOU INSIST ON CLICKING ME!!!"
       button1.classList.remove("taco")
