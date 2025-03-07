@@ -71,7 +71,7 @@
     }
 }
 .growshrink{
-    animation: growshrink 1s linear 1;
+    animation: growshrink 2s linear 1;
     height: 0px;
     width: 0px;
     background-color: transparent;
