@@ -139,6 +139,5 @@ animation: wii 5s linear infinite;
             75%{transform: translateX(-200px) translateY(200px);}
             100%{transform: translateX(0px) translateY(0px);}
         }
-{
 
-}
+
