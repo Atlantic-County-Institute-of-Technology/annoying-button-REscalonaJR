@@ -159,7 +159,6 @@ button3.classList.remove("button1")
     if(clicks==41){
       button1.classList.remove("initial");
       button1.classList.add("mom_look_im_a_star");
-      button1.classList.remove("button1");
       texxt.innerHTML = "WIP";
      
       
