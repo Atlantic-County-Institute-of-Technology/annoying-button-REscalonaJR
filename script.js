@@ -23,6 +23,7 @@ let star_c = document.getElementById("star_c");
 let sta_c = document.getElementById("sta_c");
 let stare_c = document.getElementById("stare_c");
 let solar_container = document.getElementById("solar_container")
+let body = document.getElementById("body")
 const button2 = document.createElement("button");
  const button3 = document.createElement("button");
  container.appendChild(button3);
@@ -157,6 +158,25 @@ button3.classList.remove("button1")
     }
     if(clicks==41){
       texxt.innerHTML = "WHP"
+      body.classList.remove("invis")
+      solar_container.classList.remove("invis")
+      mercury.classList.remove("invis")
+      venus.classList.remove("invis")
+      earth.classList.remove("invis")
+      jupiter.classList.remove("invis")
+      saturn.classList.remove("invis")
+      uranus.classList.remove("invis")
+      neptune.classList.remove("invis")
+      sun.classList.remove("invis")
+      crewmate.classList.remove("invis")
+      star_a.classList.remove("invis")
+      sta_a.classList.remove("invis")
+      stare_a.classList.remove("invis")
+      star_b.classList.remove("invis")
+      sta_b.classList.remove("invis")
+      star_c.classList.remove("invis")
+      sta_c.classList.remove("invis")
+      stare_c.classList.remove("invis")
       solar_container.classList.add("cont")
       mercury.classList.add("merc")
       venus.classList.add("ven")
@@ -175,6 +195,7 @@ button3.classList.remove("button1")
       star_c.classList.add("star_c")
       sta_c.classList.add("sta_c")
       stare_c.classList.add("stare_c")
+      body.classList.add("filler")
       button1.classList.remove("initial")
       button1.classList.add("mom_look_im_a_star")
       button1.classList.remove("button1")
