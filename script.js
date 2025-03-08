@@ -161,26 +161,7 @@ button3.classList.remove("button1")
       button1.classList.add("mom_look_im_a_star");
       button1.classList.remove("button1");
       texxt.innerHTML = "WIP";
-      body.classList.remove("invis");
-      solar_container.classList.remove("invis");
-      mercury.classList.remove("invis");
-      venus.classList.remove("invis");
-      earth.classList.remove("invis");
-      jupiter.classList.remove("invis");
-      saturn.classList.remove("invis");
-      uranus.classList.remove("invis");
-      neptune.classList.remove("invis");
-      sun.classList.remove("invis");
-      crewmate.classList.remove("invis");
-      star_a.classList.remove("invis");
-      sta_a.classList.remove("invis");
-      stare_a.classList.remove("invis");
-      star_b.classList.remove("invis");
-      sta_b.classList.remove("invis");
-      star_c.classList.remove("invis");
-      sta_c.classList.remove("invis");
-      stare_c.classList.remove("invis");
-      body.classList.add("filler")
+     
       
     }
     if (clicks==50) {
