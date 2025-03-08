@@ -8,7 +8,7 @@
 .cont{
     height: 1057px;
     width: 1914px;
-    border: black dotted 3px;
+    border: rgb(255, 0, 0) dotted 3px;
     /*CONTAINER*/
     z-index: 0;
     position: absolute;

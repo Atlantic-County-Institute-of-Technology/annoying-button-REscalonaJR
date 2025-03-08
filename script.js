@@ -180,7 +180,7 @@ button3.classList.remove("button1")
       star_c.classList.remove("invis");
       sta_c.classList.remove("invis");
       stare_c.classList.remove("invis");
-      
+      body.classList.add("filler")
       
     }
     if (clicks==50) {
