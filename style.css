@@ -1,3 +1,10 @@
+body{
+    display: flex; 
+    align-items: center;
+    /*CENTERS ITEMS+background*/
+    flex-direction: column;
+    background-image:url(images/bg.jpg);
+}
 .cont{
     height: 1057px;
     width: 1914px;
