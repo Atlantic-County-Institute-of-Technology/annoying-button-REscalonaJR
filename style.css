@@ -591,6 +591,7 @@ animation: wii 5s linear infinite;
             100%{transform: translateX(0px) translateY(0px);}
         }
 .mom_look_im_a_star{
+    position: absolute;
     left: 1000px;
     top: 250px;
     animation: rotate_square 6s 15.67s linear infinite;
@@ -617,6 +618,7 @@ animation: wii 5s linear infinite;
     100%{background-color: transparent;}
     }
 .button_trail1{
+    position: absolute;
     left: 1020px;
     top: 230px;
     animation: rotate_squar 6s 15.67s linear infinite;
@@ -641,6 +643,7 @@ animation: wii 5s linear infinite;
  }
  .button_trail2{
     left: 1040px;
+    position: absolute;
     top: 210px;
     animation: rotate_squa 6s 15.67s linear infinite;
     z-index: 9;
