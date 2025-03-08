@@ -4,6 +4,25 @@ let stache = document.getElementById("must")
 let container = document.getElementById("container")
 let clicks = 0;
 let clicksound = new Audio ('assets/click.mp3');
+let mercury = document.getElementById("mercury");
+let venus = document.getElementById("venus");
+let earth = document.getElementById("earth");
+let jupiter = document.getElementById("jupiter");
+let saturn = document.getElementById("staurn");
+let uranus = document.getElementById("uranus");
+let neptune = document.getElementById("neptune");
+let sun = document.getElementById("sun");
+let crewmate = document.getElementById("crewmate");
+let star_a = document.getElementById("star_a");
+let sta_a = document.getElementById("sta_a");
+let stare_a = document.getElementById("stare_a");
+let star_b = document.getElementById("star_b");
+let sta_b = document.getElementById("sta_b");
+let stare_b = document.getElementById("stare_b");
+let star_c = document.getElementById("star_c");
+let sta_c = document.getElementById("sta_c");
+let stare_c = document.getElementById("stare_c");
+let solar_container = document.getElementById("solar_container")
 const button2 = document.createElement("button");
  const button3 = document.createElement("button");
  container.appendChild(button3);
@@ -117,7 +136,7 @@ button3.classList.remove("button1")
       button1.classList.remove("taco")
       button1.classList.add("initial")
       button1.classList.add("growshrink")
-      button1.innerHTML=""
+      button1.innerHTML="CLICK"
       button3.innerHTML=""
       button2.innerHTML=""
 
@@ -136,7 +155,27 @@ button3.classList.remove("button1")
     if(clicks== 40){
     texxt.innerHTML = "WHY WONT YOU STOP"
     }
-    if (clicks==41) {
+    if(clicks==41){
+      mercury.classList.remove("invis")
+      venus.classList.remove("invis")
+      earth.classList.remove("invis")
+      jupiter.classList.remove("invis")
+      saturn.classList.remove("invis")
+      uranus.classList.remove("invis")
+      neptune.classList.remove("invis")
+      sun.classList.remove("invis")
+      crewmate.classList.remove("invis")
+      star_a.classList.remove("invis")
+      sta_a.classList.remove("invis")
+      stare_a.classList.remove("invis")
+      star_b.classList.remove("invis")
+      sta_b.classList.remove("invis")
+      star_c.classList.remove("invis")
+      sta_c.classList.remove("invis")
+      stare_c.classList.remove("invis")
+      
+    }
+    if (clicks==50) {
       texxt.innerHTML = "here, something until 100"
     button1.classList.add("running")
     }
