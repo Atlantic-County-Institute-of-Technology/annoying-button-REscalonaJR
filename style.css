@@ -6,7 +6,9 @@
     border: transparent;
     box-shadow: 0px 0px 0px 0px
 }
-
+.bg{
+    background-image: url(images/bg.jpg);
+}
 .taco{
     position: absolute;
     top: 26%;
@@ -237,7 +239,7 @@ animation: wii 5s linear infinite;
         width: 90px;
         border-radius:50% ;
         background-color: rgba(255, 0, 0, 0.671);
-        box-shadow: 0px 10px 2px 2px;
+        box-shadow: 0px 5px 1px 1px;
         font-size: 25px; }
     40%{height: 90px;
         width: 90px;
