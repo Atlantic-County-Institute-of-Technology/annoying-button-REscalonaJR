@@ -24,6 +24,8 @@ let sta_c = document.getElementById("sta_c");
 let stare_c = document.getElementById("stare_c");
 let solar_container = document.getElementById("solar_container")
 let body = document.getElementById("body")
+let button_trail1 = document.getElementById("button_trail1")
+let button_trail2 = document.getElementById("button_trail2")
 const button2 = document.createElement("button");
  const button3 = document.createElement("button");
  container.appendChild(button3);
@@ -162,7 +164,8 @@ button3.classList.remove("button1")
       texxt.innerHTML = "WIP";
       button1.innerHTML = "";
      body.classList.add("bg")
-      
+      button_trail1.classList.add("button_trail1")
+      button_trail2.classList.add("button_trail2")
     }
     if (clicks==45) {
       texxt.innerHTML = "here, something until 100"
