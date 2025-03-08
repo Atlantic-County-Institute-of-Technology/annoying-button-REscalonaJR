@@ -180,25 +180,7 @@ button3.classList.remove("button1")
       star_c.classList.remove("invis");
       sta_c.classList.remove("invis");
       stare_c.classList.remove("invis");
-      solar_container.classList.add("cont");
-      mercury.classList.add("merc");
-      venus.classList.add("ven");
-      earth.classList.add("ear");
-      jupiter.classList.add("jupi");
-      saturn.classList.add("sat");
-      uranus.classList.add("uran");
-      neptune.classList.add("nep");
-      sun.classList.add("sun");
-      crewmate.classList.add("crew");
-      star_a.classList.add("star_a");
-      sta_a.classList.add("sta_");
-      stare_a.classList.add("stare_a");
-      star_b.classList.add("star_b");
-      sta_b.classList.add("sta_b");
-      star_c.classList.add("star_c");
-      sta_c.classList.add("sta_c");
-      stare_c.classList.add("stare_c");
-      body.classList.add("filler");
+      
       
     }
     if (clicks==50) {
