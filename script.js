@@ -160,10 +160,11 @@ button3.classList.remove("button1")
       button1.classList.remove("initial");
       button1.classList.add("mom_look_im_a_star");
       texxt.innerHTML = "WIP";
+      button1.innerHTML = ""
      
       
     }
-    if (clicks==50) {
+    if (clicks==45) {
       texxt.innerHTML = "here, something until 100"
     button1.classList.add("running")
     }
