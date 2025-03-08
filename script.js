@@ -156,6 +156,7 @@ button3.classList.remove("button1")
     texxt.innerHTML = "WHY WONT YOU STOP"
     }
     if(clicks==41){
+      texxt.innerHTML = "WHP"
       solar_container.classList.remove("invis")
       mercury.classList.remove("invis")
       venus.classList.remove("invis")
@@ -183,7 +184,7 @@ button3.classList.remove("button1")
       uranus.classList.add("uran")
       neptune.classList.add("nep")
       sun.classList.add("sun")
-      crewmate.classList.add("cm")
+      crewmate.classList.add("crew")
       star_a.classList.add("star_a")
       sta_a.classList.add("sta_")
       stare_a.classList.add("stare_a")
