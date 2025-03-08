@@ -157,48 +157,49 @@ button3.classList.remove("button1")
     texxt.innerHTML = "WHY WONT YOU STOP"
     }
     if(clicks==41){
-      texxt.innerHTML = "WHP"
-      body.classList.remove("invis")
-      solar_container.classList.remove("invis")
-      mercury.classList.remove("invis")
-      venus.classList.remove("invis")
-      earth.classList.remove("invis")
-      jupiter.classList.remove("invis")
-      saturn.classList.remove("invis")
-      uranus.classList.remove("invis")
-      neptune.classList.remove("invis")
-      sun.classList.remove("invis")
-      crewmate.classList.remove("invis")
-      star_a.classList.remove("invis")
-      sta_a.classList.remove("invis")
-      stare_a.classList.remove("invis")
-      star_b.classList.remove("invis")
-      sta_b.classList.remove("invis")
-      star_c.classList.remove("invis")
-      sta_c.classList.remove("invis")
-      stare_c.classList.remove("invis")
-      solar_container.classList.add("cont")
-      mercury.classList.add("merc")
-      venus.classList.add("ven")
-      earth.classList.add("ear")
-      jupiter.classList.add("jupi")
-      saturn.classList.add("sat")
-      uranus.classList.add("uran")
-      neptune.classList.add("nep")
-      sun.classList.add("sun")
-      crewmate.classList.add("crew")
-      star_a.classList.add("star_a")
-      sta_a.classList.add("sta_")
-      stare_a.classList.add("stare_a")
-      star_b.classList.add("star_b")
-      sta_b.classList.add("sta_b")
-      star_c.classList.add("star_c")
-      sta_c.classList.add("sta_c")
-      stare_c.classList.add("stare_c")
-      body.classList.add("filler")
-      button1.classList.remove("initial")
-      button1.classList.add("mom_look_im_a_star")
-      button1.classList.remove("button1")
+      button1.classList.remove("initial");
+      button1.classList.add("mom_look_im_a_star");
+      button1.classList.remove("button1");
+      texxt.innerHTML = "WIP";
+      body.classList.remove("invis");
+      solar_container.classList.remove("invis");
+      mercury.classList.remove("invis");
+      venus.classList.remove("invis");
+      earth.classList.remove("invis");
+      jupiter.classList.remove("invis");
+      saturn.classList.remove("invis");
+      uranus.classList.remove("invis");
+      neptune.classList.remove("invis");
+      sun.classList.remove("invis");
+      crewmate.classList.remove("invis");
+      star_a.classList.remove("invis");
+      sta_a.classList.remove("invis");
+      stare_a.classList.remove("invis");
+      star_b.classList.remove("invis");
+      sta_b.classList.remove("invis");
+      star_c.classList.remove("invis");
+      sta_c.classList.remove("invis");
+      stare_c.classList.remove("invis");
+      solar_container.classList.add("cont");
+      mercury.classList.add("merc");
+      venus.classList.add("ven");
+      earth.classList.add("ear");
+      jupiter.classList.add("jupi");
+      saturn.classList.add("sat");
+      uranus.classList.add("uran");
+      neptune.classList.add("nep");
+      sun.classList.add("sun");
+      crewmate.classList.add("crew");
+      star_a.classList.add("star_a");
+      sta_a.classList.add("sta_");
+      stare_a.classList.add("stare_a");
+      star_b.classList.add("star_b");
+      sta_b.classList.add("sta_b");
+      star_c.classList.add("star_c");
+      sta_c.classList.add("sta_c");
+      stare_c.classList.add("stare_c");
+      body.classList.add("filler");
+      
     }
     if (clicks==50) {
       texxt.innerHTML = "here, something until 100"
