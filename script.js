@@ -166,8 +166,18 @@ button3.classList.remove("button1")
      body.classList.add("bg")
       button_trail1.classList.add("button_trail1")
       button_trail2.classList.add("button_trail2")
+      button1.innerHTML="Don't Press"
+      star_a.classList.add("star.a")
+      sta_a.classList.add("sta.a")
+      stare_a.classList.add("stare.a")
+      star_a.classList.add("star.b")
+      sta_a.classList.add("sta.b")
+      stare_a.classList.add("stare.b")
+      star_a.classList.add("star.c")
+      sta_a.classList.add("sta.c")
+      stare_a.classList.add("stare.c")
     }
-    if (clicks==45) {
+    if (clicks==42) {
       texxt.innerHTML = "here, something until 100"
     button1.classList.add("running")
     }
