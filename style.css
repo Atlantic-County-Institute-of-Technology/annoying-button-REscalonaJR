@@ -350,7 +350,6 @@ animation: wii 5s linear infinite;
     left: 1000px;
     top: 250px;
     animation: rotate_squaree 6s 15.67s linear infinite;
-    z-index: 9;
     height: 0px;
     width: 0px;
     font-size: 0px;
