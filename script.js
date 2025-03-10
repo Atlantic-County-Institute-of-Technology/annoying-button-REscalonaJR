@@ -9,7 +9,7 @@ let venus = document.getElementById("venus");
 let earth = document.getElementById("earth");
 let mars = document.getElementById("mars")
 let jupiter = document.getElementById("jupiter");
-let saturn = document.getElementById("staurn");
+let sat = document.getElementById("staurn");
 let uranus = document.getElementById("uranus");
 let neptune = document.getElementById("neptune");
 let sun = document.getElementById("sun");
@@ -178,6 +178,7 @@ button3.classList.remove("button1")
       mars.classList.add("mar")
       solar_container.classList.add("cont")
       stare_c.classList.add("stare_c")
+      saturn.classList.add("sat")
       star_a.classList.remove("invis")
       sta_a.classList.remove("invis")
       stare_a.classList.remove("invis")
