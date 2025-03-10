@@ -121,7 +121,7 @@ function yellatuser(){
       button1.classList.remove("running")
       button2.classList.remove("invis")
 button3.classList.remove("invis")
-      button2.classList.add("button1")
+      button2.classList.add("button1")/*adds button */
       button1.innerHTML = "NOT ME"
       button2.innerHTML = "NOT ME"
       button1.classList.add("taco")
@@ -168,17 +168,14 @@ button3.classList.remove("button1")
       button1.innerHTML="Don't Press";
       star_a.classList.add("star_a")
       sta_a.classList.add("sta_a")
-      stare_a.classList.add("stare_a")
+      stare_a.classList.add("stare_a")/*adds the stars */
       star_b.classList.add("star_b")
       sta_b.classList.add("sta_b")
       stare_b.classList.add("stare_b")
       star_c.classList.add("star_c")
       sta_c.classList.add("sta_c")
-      
-      
       solar_container.classList.add("cont")
       stare_c.classList.add("stare_c")
-    
       star_a.classList.remove("invis")
       sta_a.classList.remove("invis")
       stare_a.classList.remove("invis")
@@ -188,7 +185,6 @@ button3.classList.remove("button1")
       star_c.classList.remove("invis")
       sta_c.classList.remove("invis")
       stare_c.classList.remove("invis")
-      
       solar_container.classList.remove("invis")
      
     }
