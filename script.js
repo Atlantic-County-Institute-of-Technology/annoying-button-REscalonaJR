@@ -174,11 +174,11 @@ button3.classList.remove("button1")
       stare_b.classList.add("stare_b")
       star_c.classList.add("star_c")
       sta_c.classList.add("sta_c")
-      sun.classList.add("sun")
-      mars.classList.add("mar")
+      
+      
       solar_container.classList.add("cont")
       stare_c.classList.add("stare_c")
-      saturn.classList.add("sat")
+    
       star_a.classList.remove("invis")
       sta_a.classList.remove("invis")
       stare_a.classList.remove("invis")
@@ -188,13 +188,9 @@ button3.classList.remove("button1")
       star_c.classList.remove("invis")
       sta_c.classList.remove("invis")
       stare_c.classList.remove("invis")
-      sun.classList.remove("invis")
+      
       solar_container.classList.remove("invis")
-      mercury.classList.remove("invis")
-      venus.classList.remove("invis")
-      earth.classList.remove("invis")
-      mars.classList.remove("invis")
-      jupiter.classList.remove("invis")
+     
     }
    
     if(clicks==50){
@@ -210,7 +206,7 @@ button3.classList.remove("button1")
       star_c.classList.remove("star_c")
       sta_c.classList.remove("sta_c")
       stare_c.classList.remove("stare_c")
-      sun.classList.remove("sun")
+      
       solar_container.classList.remove("cont")
       star_a.classList.add("invis")
       sta_a.classList.add("invis")
@@ -223,11 +219,6 @@ button3.classList.remove("button1")
       stare_c.classList.add("invis")
       sun.classList.add("invis")
       solar_container.add("invis")
-      mercury.classList.add("invis")
-      venus.classList.add("invis")
-      earth.classList.add("invis")
-      mars.classList.add("invis")
-      jupiter.classList.add("invis")
       button1.classList.add("mover")
       texxt.innerHTML = "I HAVE REACHED MY ULTIMATE STATE YOU CANT CATCH ME"
     }
