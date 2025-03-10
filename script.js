@@ -194,11 +194,10 @@ button3.classList.remove("button1")
     }
    
     if(clicks==50){
-      texxt.innerHTML = "I HAVE REACHED MY ULTIMATE STATE YOU CANT CATCH ME"
+      texxt.innerHTML = "IVE REACHED MY ULTIMATE STATE"
       button1.classList.add("initial");
       button1.classList.remove("mom_look_im_a_star");
       body.classList.remove("bg")
-      
       star_a.classList.add("invis")
       sta_a.classList.add("invis")
       stare_a.classList.add("invis")
@@ -209,9 +208,8 @@ button3.classList.remove("button1")
       sta_c.classList.add("invis")
       stare_c.classList.add("invis")
       sun.classList.add("invis")
-      solar_container.add("invis")
+      solar_container.classList.add("invis")
       button1.classList.add("moverr")
-      
     }
 }
 
