@@ -85,7 +85,7 @@ animation: MC 1.205s infinite linear;
         translateX(350px) rotate(360deg) ;
     }
 }
-.mars{
+.mar{
     position: absolute;
     animation: bar 9.41s linear infinite;
     left: 916px;/*mars*/
