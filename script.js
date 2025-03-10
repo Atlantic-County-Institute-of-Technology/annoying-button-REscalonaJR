@@ -198,16 +198,7 @@ button3.classList.remove("button1")
       button1.classList.add("initial");
       button1.classList.remove("mom_look_im_a_star");
       body.classList.remove("bg")
-      star_a.classList.remove("star_a")
-      sta_a.classList.remove("sta_a")
-      stare_a.classList.remove("stare_a")
-      star_b.classList.remove("star_b")
-      sta_b.classList.remove("sta_b")
-      stare_b.classList.remove("stare_b")
-      star_c.classList.remove("star_c")
-      sta_c.classList.remove("sta_c")
-      stare_c.classList.remove("stare_c")
-      solar_container.classList.remove("cont")
+      
       star_a.classList.add("invis")
       sta_a.classList.add("invis")
       stare_a.classList.add("invis")
