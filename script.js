@@ -164,7 +164,6 @@ button3.classList.remove("button1")
       button1.classList.add("mom_look_im_a_star");
       texxt.innerHTML = "WIP";
      body.classList.add("bg")
-      
       button1.innerHTML="Don't Press";
       star_a.classList.add("star_a")
       sta_a.classList.add("sta_a")
