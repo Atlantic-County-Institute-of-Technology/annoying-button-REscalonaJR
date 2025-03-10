@@ -161,11 +161,11 @@ button3.classList.remove("button1")
     texxt.innerHTML = "WHY WONT YOU STOP"
     }
     if(clicks==41){
-      button1.classList.remove("initial")
-      button1.classList.add("mom_look_im_a_star")
-      texxt.innerHTML = "WIP"
+      button1.classList.remove("initial");
+      button1.classList.add("mom_look_im_a_star");
+      texxt.innerHTML = "WIP";
      body.classList.add("bg")
-      button1.innerHTML="Don't Press"
+      button1.innerHTML="Don't Press";
       star_a.classList.add("star_a")
       sta_a.classList.add("sta_a")
       stare_a.classList.add("stare_a")
@@ -212,11 +212,6 @@ button3.classList.remove("button1")
       stare_c.classList.remove("stare_c")
       sun.classList.remove("sun")
       solar_container.classList.remove("cont")
-      mercury.classList.remove("invis")
-      venus.classList.remove("invis")
-      earth.classList.remove("invis")
-      mars.classList.remove("invis")
-      jupiter.classList.remove("invis")
       star_a.classList.add("invis")
       sta_a.classList.add("invis")
       stare_a.classList.add("invis")
