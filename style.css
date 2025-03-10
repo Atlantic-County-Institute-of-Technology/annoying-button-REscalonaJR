@@ -115,7 +115,7 @@ animation: MC 1.205s infinite linear;
         translateX(625px) rotate(360deg) ;
     }
 }
-.sat{
+.saturn{
     position: absolute;
     left: 922px;
     bottom: 500px;
