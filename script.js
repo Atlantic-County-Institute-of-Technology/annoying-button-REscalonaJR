@@ -191,7 +191,7 @@ button3.classList.remove("button1")
       sun.classList.remove("invis")
       solar_container.classList.remove("invis")
       mercury.classList.remove("invis")
-      venus.classList.remove("inviss")
+      venus.classList.remove("invis")
     }
    
     if(clicks==100){
