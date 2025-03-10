@@ -161,6 +161,7 @@ button3.classList.remove("button1")
     texxt.innerHTML = "WHY WONT YOU STOP"
     }
     if(clicks==41){
+      texxt.innerHTML = "I'm done"
       button1.classList.remove("initial");
       button1.classList.add("mom_look_im_a_star");
      body.classList.add("bg")
