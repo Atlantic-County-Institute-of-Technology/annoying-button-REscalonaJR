@@ -163,7 +163,7 @@ button3.classList.remove("button1")
     if(clicks==41){
       button1.classList.remove("initial");
       button1.classList.add("mom_look_im_a_star");
-      texxt.innerHTML = "WIP";
+      texxt.innerHTML = "I HAVE REACHED MY ULTIMATE STATE YOU CANT CATCH ME";
      body.classList.add("bg")
       button1.innerHTML="Don't Press";
       star_a.classList.add("star_a")
@@ -206,7 +206,6 @@ button3.classList.remove("button1")
       star_c.classList.remove("star_c")
       sta_c.classList.remove("sta_c")
       stare_c.classList.remove("stare_c")
-      
       solar_container.classList.remove("cont")
       star_a.classList.add("invis")
       sta_a.classList.add("invis")
