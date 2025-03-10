@@ -7,6 +7,7 @@ let clicksound = new Audio ('assets/click.mp3');
 let mercury = document.getElementById("mercury");
 let venus = document.getElementById("venus");
 let earth = document.getElementById("earth");
+let mars = document.getElementById("mars")
 let jupiter = document.getElementById("jupiter");
 let saturn = document.getElementById("staurn");
 let uranus = document.getElementById("uranus");
@@ -190,7 +191,7 @@ button3.classList.remove("button1")
       mercury.classList.remove("invis")
       venus.classList.remove("invis")
       earth.classList.remove("invis")
-      mercury.classList.remove("invis")
+      mars.classList.remove("mars")
     }
    
     if(clicks==100){
