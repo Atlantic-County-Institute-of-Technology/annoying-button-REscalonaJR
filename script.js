@@ -190,6 +190,7 @@ button3.classList.remove("button1")
       mercury.classList.remove("invis")
       venus.classList.remove("invis")
       earth.classList.remove("invis")
+      mercury.classList.remove("invis")
     }
    
     if(clicks==100){
