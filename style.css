@@ -1,4 +1,5 @@
-.invis{
+
+ .invis{
     height: 0px;
     width: 0px;
     background-color: transparent;
@@ -377,13 +378,13 @@ animation: wii 5s linear infinite;
     100%{background-color: transparent;}
     }
 /* not using this
-.button_trail1{
+.button_trail1
     position: absolute;
     left: 1020px;
     top: 230px;
     animation: rotate_squar 6s 15.67s linear infinite;
     z-index: 8;
-}
+
 @keyframes rotate_squar{
     0%{ transform:translateX(0px);height: 100px;
         width: 100px;
