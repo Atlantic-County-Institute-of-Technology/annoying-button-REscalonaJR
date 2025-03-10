@@ -174,6 +174,7 @@ button3.classList.remove("button1")
       stare_b.classList.add("stare_b")
       star_c.classList.add("star_c")
       sta_c.classList.add("sta_c")
+      sun.classList.add("sun")
       stare_c.classList.add("stare_c")
       star_a.classList.remove("invis")
       sta_a.classList.remove("invis")
@@ -184,6 +185,7 @@ button3.classList.remove("button1")
       star_c.classList.remove("invis")
       sta_c.classList.remove("invis")
       stare_c.classList.remove("invis")
+      sun.classList.remove("invis")
     }
    
     if(clicks==100){
