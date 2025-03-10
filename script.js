@@ -195,7 +195,6 @@ button3.classList.remove("button1")
       earth.classList.remove("invis")
       mars.classList.remove("invis")
       jupiter.classList.remove("invis")
-      sat.classList.remove("invis")
     }
    
     if(clicks==50){
@@ -224,6 +223,11 @@ button3.classList.remove("button1")
       stare_c.classList.add("invis")
       sun.classList.add("invis")
       solar_container.add("invis")
+      mercury.classList.add("invis")
+      venus.classList.add("invis")
+      earth.classList.add("invis")
+      mars.classList.add("invis")
+      jupiter.classList.add("invis")
       button1.classList.add("mover")
       texxt.innerHTML = "I HAVE REACHED MY ULTIMATE STATE YOU CANT CATCH ME"
     }
