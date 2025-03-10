@@ -175,7 +175,8 @@ button3.classList.remove("button1")
       sta_c.classList.add("sta_c")
       sun.classList.add("sun")
       solar_container.classList.add("cont")
-      
+      mercury.classList.add("merc")
+      venus.classList.add("ven")
       earth.classList.add("earth")
       stare_c.classList.add("stare_c")
       star_a.classList.remove("invis")
@@ -191,7 +192,7 @@ button3.classList.remove("button1")
       solar_container.classList.remove("invis")
       mercury.classList.remove("invis")
       venus.classList.remove("invis")
-      earth.classList.remove("earth")
+      earth.classList.remove("invis")
     }
    
     if(clicks==100){
