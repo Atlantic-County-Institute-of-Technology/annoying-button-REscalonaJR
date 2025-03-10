@@ -117,6 +117,7 @@ animation: MC 1.205s infinite linear;
 }
 .saturn{
     position: absolute;
+    background-image: url(images/saturn.png);
     left: 922px;
     bottom: 500px;
     animation: sati 147.338s linear infinite;
