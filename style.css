@@ -70,7 +70,7 @@ animation: MC 1.205s infinite linear;
         translateX(250px) rotate(360deg) ;
     }
 }
-.earth{
+.eearth{
     position: absolute;
     animation: wii 5s infinite linear;
     left: 914px;
