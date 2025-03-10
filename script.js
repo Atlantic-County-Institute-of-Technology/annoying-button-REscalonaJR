@@ -163,7 +163,6 @@ button3.classList.remove("button1")
     if(clicks==41){
       button1.classList.remove("initial");
       button1.classList.add("mom_look_im_a_star");
-      texxt.innerHTML = "I HAVE REACHED MY ULTIMATE STATE YOU CANT CATCH ME";
      body.classList.add("bg")
       button1.innerHTML="Don't Press";
       star_a.classList.add("star_a")
