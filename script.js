@@ -210,7 +210,7 @@ button3.classList.remove("button1")
       stare_c.classList.add("invis")
       sun.classList.add("invis")
       solar_container.add("invis")
-      button1.classList.add("mover")
+      button1.classList.add("moverr")
       
     }
 }

@@ -200,7 +200,7 @@ animation: MC 1.205s infinite linear;
     left: 40%;
     font-size: 30px;
 } 
-.mover:hover{
+.moverr:hover{
     animation: circle 0.1ms linear infinite;
 }
 @keyframes circle{
@@ -213,8 +213,8 @@ animation: MC 1.205s infinite linear;
     }
 }
 
-.mover{
-    animation: blitz 0.003ms linear infinite;
+.moverr{
+    animation: blitz 0.004ms linear infinite;
 }
 @keyframes blitz{
     0%{
