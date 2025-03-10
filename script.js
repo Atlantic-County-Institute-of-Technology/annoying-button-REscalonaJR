@@ -7,7 +7,6 @@ let clicksound = new Audio ('assets/click.mp3');
 let mercury = document.getElementById("mercury");
 let venus = document.getElementById("venus");
 let earth = document.getElementById("earth");
-let mars = document.getElementById("mars");
 let jupiter = document.getElementById("jupiter");
 let saturn = document.getElementById("staurn");
 let uranus = document.getElementById("uranus");
@@ -179,12 +178,6 @@ button3.classList.remove("button1")
       solar_container.classList.add("cont")
       mercury.classList.add("merc")
       venus.classList.add("ven")
-      earth.classList.add("ear")
-      mars.classList.add("mars")
-      jupiter.classList.add("jupi")
-      saturn.classList.add("sat")
-      uranus.classList.add("uran")
-      neptune.classList.add("nep")
       stare_c.classList.add("stare_c")
       star_a.classList.remove("invis")
       sta_a.classList.remove("invis")
@@ -198,13 +191,7 @@ button3.classList.remove("button1")
       sun.classList.remove("invis")
       solar_container.classList.remove("invis")
       mercury.classList.remove("invis")
-      venus.classList.remove("invis")
-      earth.classList.remove("invis")
-      mars.classList.remove("invis")
-      jupiter.classList.remove("invis")
-      saturn.classList.remove("invis")
-      uranus.classList.remove("invis")
-      neptune.classList.remove("invis")
+      venus.classList.remove("inviss")
     }
    
     if(clicks==100){
@@ -222,14 +209,6 @@ button3.classList.remove("button1")
       stare_c.classList.remove("stare_c")
       sun.classList.remove("sun")
       solar_container.classList.remove("cont")
-      mercury.classList.remove("merc")
-      venus.classList.remove("ven")
-      earth.classList.remove("ear")
-      mars.classList.remove("mars")
-      jupiter.classList.remove("jupi")
-      saturn.classList.remove("sat")
-      uranus.classList.remove("uran")
-      neptune.classList.remove("nep")
       star_a.classList.add("invis")
       sta_a.classList.add("invis")
       stare_a.classList.add("invis")
@@ -241,14 +220,6 @@ button3.classList.remove("button1")
       stare_c.classList.add("invis")
       sun.classList.add("invis")
       solar_container.add("invis")
-      mercury.classList.add("invis")
-      venus.classList.add("invis")
-      earth.classList.add("invis")
-      mars.classList.add("invis")
-      jupiter.classList.add("invis")
-      saturn.classList.add("invis")
-      uranus.classList.add("invis")
-      neptune.classList.add("invis")
       button1.classList.add("mover")
       texxt.innerHTML = "I HAVE REACHED MY ULTIMATE STATE YOU CANT CATCH ME"
     }
