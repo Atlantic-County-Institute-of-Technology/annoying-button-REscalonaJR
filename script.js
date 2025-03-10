@@ -194,9 +194,10 @@ button3.classList.remove("button1")
       earth.classList.remove("invis")
       mars.classList.remove("invis")
       jupiter.classList.remove("invis")
+      saturn.classList.remove("invis")
     }
    
-    if(clicks==100){
+    if(clicks==50){
       button1.classList.add("initial");
       button1.classList.remove("mom_look_im_a_star");
       body.classList.remove("bg")
